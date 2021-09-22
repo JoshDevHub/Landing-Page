@@ -1,0 +1,57 @@
+/* Universal Styles */
+
+html {
+    font-size: 18px;
+    font-family: Helvetica, sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* Header Styles */
+
+header {
+    background-color: #1f2937;
+    width: 100%;
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+.header-logo {
+    font-size: 1.25rem;
+    color: #f9faf8;
+    font-weight: bold;
+}
+
+nav a {
+    color: #e5e7eb;
+    text-decoration: none;
+    display: block;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav li + li {
+    padding-left: 1rem;
+}
+
+/* Hero Styles */
+
+/* Information Styles */
+
+/* Quote Styles */
+
+/* Action Styles */
+
+/* Footer Styles */
