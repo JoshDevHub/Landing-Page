@@ -5,9 +5,13 @@ html {
     font-family: Helvetica, sans-serif;
 }
 
-body {
+body, h1, h2, p {
     margin: 0;
     padding: 0;
+}
+
+*, *:before, *:after {
+    box-sizing: border-box;
 }
 
 /* Header Styles */
@@ -48,6 +52,47 @@ nav li + li {
 
 /* Hero Styles */
 
+.hero {
+    background-color: #1f2937;
+    padding: 5rem 0;
+}
+
+.hero-content {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    gap: 0.5rem;
+}
+
+.left-hero,
+.right-hero {
+    width: 50%;
+}
+
+h1 {
+    font-weight: 900;
+    font-size: 3rem;
+    color: #f9faf8;
+    margin-bottom: 0.5rem;
+}
+
+.left-hero p {
+    color: #e5e7eb;
+    margin-bottom: 0.5rem;
+}
+
+.right-hero {
+    border: 1px solid red;
+}
+
+button {
+    background-color: #3882f6;
+    color: #f9faf8;
+    padding: 0.5rem 2rem;
+    border: none;
+    border-radius: 10px;
+    box-shadow: none;
+}
 /* Information Styles */
 
 /* Quote Styles */
