@@ -145,16 +145,20 @@ h2 {
 .quote blockquote {
     font-size: 2rem;
     font-style: italic;
-    /* color: #1f2937; */
 }
 
 .quote-container p {
     font-size: 1.25rem;
     text-align: right;
-    /* color: #1f2937 */
 }
 
-
 /* Action Styles */
+
+.sign-up {
+    width: 70%;
+    background-color: #3882f6;
+    margin: 4rem auto;
+    color: #f9faf8;
+}
 
 /* Footer Styles */
