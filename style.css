@@ -6,7 +6,7 @@ html {
 }
 
 body, h1, h2, p,
-figure {
+figure, blockquote {
     margin: 0;
     padding: 0;
 }
@@ -129,6 +129,31 @@ h2 {
 }
 
 /* Quote Styles */
+
+.quote {
+    background-color: #e5e7eb;
+    margin-top: 3rem;
+    padding: 7rem 0;
+}
+
+.quote-container {
+    width: 66%;
+    margin: 0 auto;
+    color: #1f2937;
+}
+
+.quote blockquote {
+    font-size: 2rem;
+    font-style: italic;
+    /* color: #1f2937; */
+}
+
+.quote-container p {
+    font-size: 1.25rem;
+    text-align: right;
+    /* color: #1f2937 */
+}
+
 
 /* Action Styles */
 
