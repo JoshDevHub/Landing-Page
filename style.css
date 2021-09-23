@@ -5,7 +5,8 @@ html {
     font-family: Helvetica, sans-serif;
 }
 
-body, h1, h2, p {
+body, h1, h2, p,
+figure {
     margin: 0;
     padding: 0;
 }
@@ -24,7 +25,7 @@ header {
 .header-content {
     display: flex;
     align-items: center;
-    width: 80%;
+    width: 70%;
     margin: 0 auto;
     justify-content: space-between;
 }
@@ -54,14 +55,14 @@ nav li + li {
 
 .hero {
     background-color: #1f2937;
-    padding: 5rem 0;
+    padding: 7rem 0;
 }
 
 .hero-content {
-    width: 80%;
+    width: 70%;
     margin: 0 auto;
     display: flex;
-    gap: 0.5rem;
+    gap: 3rem;
 }
 
 .left-hero,
@@ -70,7 +71,7 @@ nav li + li {
 }
 
 h1 {
-    font-weight: 900;
+    font-weight: 800;
     font-size: 3rem;
     color: #f9faf8;
     margin-bottom: 0.5rem;
@@ -94,6 +95,38 @@ button {
     box-shadow: none;
 }
 /* Information Styles */
+
+h2 {
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 3rem;
+    font-weight: 800;
+    color: #1f2937;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    width: 66%;
+    margin: 3rem auto 0 auto;
+}
+
+.image-container figure {
+    width: 170px;
+    color: #1f2937;
+}
+
+.image-container img {
+    border: 3px solid #3882f6;
+    border-radius: 10px;
+    width: 170px;
+}
+
+.image-container figcaption {
+    text-align: center;
+    margin-top: 0.25em;
+}
 
 /* Quote Styles */
 
