@@ -154,6 +154,10 @@ h2 {
 
 /* Action Styles */
 
+.action {
+    padding: 2rem 0;
+}
+
 .sign-up {
     width: 70%;
     background-color: #3882f6;
@@ -167,6 +171,7 @@ h2 {
 .cta-maintext {
     color: #f9faf8;
     font-size: 1.15rem;
+    font-weight: bold;
 }
 
 .cta-subtext {
@@ -177,6 +182,15 @@ h2 {
     border: 2px solid white;
     font-weight: bold;
     margin-right: 3rem;
+    padding: 0 3rem;
+    color: #f9faf8;
+    font-size: 1rem;
 }
 
 /* Footer Styles */
+footer {
+    text-align: center;
+    color: #e5e7eb;
+    background-color: #1f2937;
+    padding: 2rem 0;
+}
