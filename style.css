@@ -137,7 +137,7 @@ h2 {
 }
 
 .quote-container {
-    width: 66%;
+    width: 55%;
     margin: 0 auto;
     color: #1f2937;
 }
@@ -158,7 +158,25 @@ h2 {
     width: 70%;
     background-color: #3882f6;
     margin: 4rem auto;
+    border-radius: 10px;
+    display: flex;
+    padding: 3rem;
+    justify-content: space-between;
+}
+
+.cta-maintext {
     color: #f9faf8;
+    font-size: 1.15rem;
+}
+
+.cta-subtext {
+    color: #e5e7eb;
+}
+
+.sign-up button {
+    border: 2px solid white;
+    font-weight: bold;
+    margin-right: 3rem;
 }
 
 /* Footer Styles */
