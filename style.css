@@ -1,8 +1,8 @@
-/* Universal Styles */
+/* Universal Styles & Resets */
 
 html {
-    font-size: 18px;
     font-family: Helvetica, sans-serif;
+    font-size: 18px;
 }
 
 body, h1, h2, p,
@@ -11,7 +11,7 @@ figure, blockquote {
     padding: 0;
 }
 
-*, *:before, *:after {
+*, *::before, *::after {
     box-sizing: border-box;
 }
 
@@ -23,28 +23,28 @@ header {
 }
 
 .header-content {
-    display: flex;
     align-items: center;
-    width: 70%;
-    margin: 0 auto;
+    display: flex;
     justify-content: space-between;
+    margin: 0 auto;
+    width: 70%;
 }
 
 .header-logo {
-    font-size: 1.25rem;
     color: #f9faf8;
+    font-size: 1.25rem;
     font-weight: bold;
 }
 
 nav a {
     color: #e5e7eb;
-    text-decoration: none;
     display: block;
+    text-decoration: none;
 }
 
 nav ul {
-    list-style: none;
     display: flex;
+    list-style: none;
 }
 
 nav li + li {
@@ -59,10 +59,10 @@ nav li + li {
 }
 
 .hero-content {
-    width: 70%;
-    margin: 0 auto;
     display: flex;
     gap: 3rem;
+    margin: 0 auto;
+    width: 70%;
 }
 
 .left-hero,
@@ -71,9 +71,9 @@ nav li + li {
 }
 
 h1 {
-    font-weight: 800;
-    font-size: 3rem;
     color: #f9faf8;
+    font-size: 3rem;
+    font-weight: 800;
     margin-bottom: 0.5rem;
 }
 
@@ -88,44 +88,44 @@ h1 {
 
 button {
     background-color: #3882f6;
+    border-radius: 10px;
+    border: none;
+    box-shadow: none;
     color: #f9faf8;
     padding: 0.5rem 2rem;
-    border: none;
-    border-radius: 10px;
-    box-shadow: none;
 }
 /* Information Styles */
 
 h2 {
-    font-size: 2rem;
-    text-align: center;
-    margin-top: 3rem;
-    font-weight: 800;
     color: #1f2937;
+    font-size: 2rem;
+    font-weight: 800;
+    margin-top: 3rem;
+    text-align: center;
 }
 
 .image-container {
     display: flex;
-    justify-content: center;
     gap: 2rem;
-    width: 66%;
+    justify-content: center;
     margin: 3rem auto 0 auto;
+    width: 66%;
 }
 
 .image-container figure {
-    width: 170px;
     color: #1f2937;
+    width: 170px;
 }
 
 .image-container img {
-    border: 3px solid #3882f6;
     border-radius: 10px;
+    border: 3px solid #3882f6;
     width: 170px;
 }
 
 .image-container figcaption {
-    text-align: center;
     margin-top: 0.25em;
+    text-align: center;
 }
 
 /* Quote Styles */
@@ -137,9 +137,9 @@ h2 {
 }
 
 .quote-container {
-    width: 55%;
-    margin: 0 auto;
     color: #1f2937;
+    margin: 0 auto;
+    width: 55%;
 }
 
 .quote blockquote {
@@ -159,13 +159,13 @@ h2 {
 }
 
 .sign-up {
-    width: 70%;
     background-color: #3882f6;
-    margin: 4rem auto;
     border-radius: 10px;
     display: flex;
-    padding: 3rem;
     justify-content: space-between;
+    margin: 4rem auto;
+    padding: 3rem;
+    width: 70%;
 }
 
 .cta-maintext {
@@ -180,17 +180,17 @@ h2 {
 
 .sign-up button {
     border: 2px solid white;
+    color: #f9faf8;
+    font-size: 1rem;
     font-weight: bold;
     margin-right: 3rem;
     padding: 0 3rem;
-    color: #f9faf8;
-    font-size: 1rem;
 }
 
 /* Footer Styles */
 footer {
-    text-align: center;
-    color: #e5e7eb;
     background-color: #1f2937;
+    color: #e5e7eb;
     padding: 2rem 0;
+    text-align: center;
 }
